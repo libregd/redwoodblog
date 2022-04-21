@@ -12,7 +12,7 @@
  * END --- SETUP TAILWINDCSS EDIT
  */
 
-
+/*
  button, input, label, textarea {
   display: block;
   outline: none;
@@ -40,8 +40,6 @@ input.error, textarea.error {
 .form-error li {
   display: list-item;
 }
-
-/* 自己新加的 */
 
 :root {
   --color-primary-narmal: #709b90;
@@ -72,15 +70,11 @@ a:hover  {
   padding-right: 2rem;
   padding-bottom: 0.05rem;
   box-shadow: 5px 0px 5px var(--color-gray-normal);
-  /* position: fixed; */
   top: 0;
-
 }
-
 .flex-between {
   display: flex;
   justify-content: space-between;
-
 }
 .flex-between div{
   margin: auto 0;
@@ -147,5 +141,5 @@ text-align: right;
 margin-top: 1rem;
 }
 
-
+ */
 

@@ -5,6 +5,17 @@ yarn 的```yarn.lock```文件，需要在项目内运行yarn install 来自动�
 
 网络问题，vpn 全局不行就局部，这个没办法，天朝代价
 
+解决了，将xxxx替换成vpn的端口号。
+```
+git config --global http.proxy 127.0.0.1:xxxx
+git config --global https.proxy 127.0.0.1:xxxx
+```
+如果使用了不大行，那就把命令擦除：
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
 # chapter 1
 ## 放到github
 
@@ -163,7 +174,15 @@ article和post已经在展示上做到了隔离，但是在页面权限上并没
 
 就是基本照着做，原理上就是很简单，适合懒狗如我。
 
+##intermisson
 
+中场休息说是喊搞个ui库把样式弄了，
+结果这个不起作用，我一看，都倒入了，路径也生成了。
+
+你说没起作用，原本的垃圾样式不见了。
+你说起作用了，又.....没啥变化。
+
+怀疑是ui库版本问题，
 
 
 
