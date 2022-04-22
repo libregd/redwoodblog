@@ -176,13 +176,29 @@ article和post已经在展示上做到了隔离，但是在页面权限上并没
 
 ##intermisson
 
-中场休息说是喊搞个ui库把样式弄了，
+中场休息说是喊搞个tailwindcss ui库把样式弄了，
 结果这个不起作用，我一看，都倒入了，路径也生成了。
 
 你说没起作用，原本的垃圾样式不见了。
 你说起作用了，又.....没啥变化。
 
-怀疑是ui库版本问题，
+## chapter 5
+
+stroybook感觉就是很方便写样式，写假数据。
+具体用起来有点绕....
+
+testing 不是很搞得懂
+
+## chapter6
+
+重新搞了个railway数据库，更换了env变量，更换了netlify上的sql key，
+
+因为本地没安装postgresql，所以本地服务起来以后直接去抓的railway的。
+
+这在这章受挫了，因为新加了一个schema字段，又要重新生成一遍，但是估计railway就是为了让你在他平台上添加的，所以不会允许我本地这么搞。
+
+因此又重复了一次chapter 4 的 inital schema操作。
+
 
 
 
